@@ -10,6 +10,10 @@ body {
     
 }  
 
+main {
+    margin: 30px 75px;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -26,10 +30,24 @@ a {
 .credit {
     font-size: 8px;
 }
-.banner img {
-    width: 100%;
-    height: auto;
+.banner {
+    position: relative;
+    text-align: center;
 }
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 32px;
+    color: white;
+
+}
+.banner span {
+    margin: 0;
+    float: right;
+}
+
 
 img {
     width: 50%;
@@ -41,5 +59,16 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#pittsburgh img {
+    float: right;
+}
+
+#pittsburgh p {
+    width: 50%;
+    float: left;
 }
