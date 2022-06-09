@@ -1,1 +1,45 @@
-/* Write your CSS here! */
+* {
+    border: 1px solid red;
+}
+
+
+body {
+    margin: 8px;
+    display: block;
+    background-image: linear-gradient(rgb(241, 160, 150), white)
+    
+}  
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.credit {
+    font-size: 8px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
