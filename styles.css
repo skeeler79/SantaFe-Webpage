@@ -30,8 +30,7 @@ h4 {
 
 p {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
-    opacity: 0.6;
+    background-color: rgb(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 8px;
     
@@ -40,6 +39,34 @@ p {
 a {
     text-decoration: none;
 }
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(53, 111, 165);
+}
+
+p a:link {
+    color: rgb(53, 111, 165);
+}
+
+p a:visited {
+    color: rgb(53, 111, 165);
+   
+}
+
+p a:hover {
+    color: rgb(230, 123, 109);
+   
+}
+
+
 
 footer {
     text-align: center;
