@@ -60,14 +60,21 @@ a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 .credit {
     font-size: 8px;
     font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
 }
 
 .caption {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
+    
 }
 .banner {
     position: relative;
@@ -111,55 +118,127 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    color: white;
 }
 
-#pittsburgh {
+.right {
+    float: right;
+}
+
+
+
+.pittsburgh {
     display: flex;
     
 }
-#pittsburgh img {
+.pittsburgh img {
     width: 50%;  
 }
 
-#pittsburgh p {
+.pittsburgh p {
     width: 50%;
     padding: 50px;
-    margin: 0 50px;  
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px; 
     border-radius: 8px;
     
 }
 
-#chicago {
+.chicago {
     display:flex
     
 }
-#chicago img {
+.chicago img {
     height: 600px;
     width: 50%;
 
 }
 
-#chicago p {
+.chicago p {
+    width: 50%;
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    border-radius: 8px;
+}
+
+ 
+.amtrak {
+    display:flex
+
+}
+.amtrak img {
+    height: 500px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;
+}
+
+.amtrak p {
     width: 50%;
     padding: 50px;
     margin: 0 50px;  
     border-radius: 8px;
 }
- 
-#amtrak {
+
+.spa {
     display:flex
     
     
 }
-#amtrak img {
-    height: 500px;
-    width: auto;
-    align-content: center;
+.spa img {
+    height: auto;
+    width: 50%;
+    
 }
 
-#amtrak p {
+.spa p {
     width: 50%;
     padding: 50px;
-    margin: 0 50px;  
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
     border-radius: 8px;
 }
+
+.bandelier {
+    display:flex
+    
+    
+}
+.bandelier img {
+    height: auto;
+    width: 50%;
+}
+
+.bandelier p {
+    width: 50%;
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.meowwolf {
+    display:flex
+    
+    
+}
+.meowwolf img {
+    height: auto;
+    width: 50%;
+}
+
+.meowwolf p {
+    width: 50%;
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    border-radius: 8px;
+}
+
