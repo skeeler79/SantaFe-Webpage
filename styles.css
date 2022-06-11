@@ -65,6 +65,13 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
+#mainHeading {
+    color: red;
+}
+
+#funParagraph {
+    color: green;
+}
 .credit {
     font-size: 8px;
     font-family: 'Roboto', sans-serif;
