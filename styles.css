@@ -1,4 +1,4 @@
-/* Box Model Hack */
+
 * {
   box-sizing: border-box;
 } 
@@ -8,12 +8,10 @@ body {
     margin: 8px;
     display: block;
     background-image: linear-gradient(rgb(241, 160, 150), white)
-    
 }  
 
 main {
     margin: 30px 75px;
-    
 }
 
 h1, h2, h3, h4 {
@@ -24,6 +22,7 @@ h1, h2, h3, h4 {
 h3{
     font-size: 26px;
 }
+
 h4 {
     font-size: 24px;
 }
@@ -33,7 +32,6 @@ p {
     background-color: rgb(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 8px;
-    
 }
 
 a {
@@ -57,16 +55,12 @@ p a:link {
 }
 
 p a:visited {
-    color: rgb(53, 111, 165);
-   
+    color: rgb(53, 111, 165);  
 }
 
 p a:hover {
-    color: rgb(230, 123, 109);
-   
+    color: rgb(230, 123, 109); 
 }
-
-
 
 footer {
     text-align: center;
@@ -80,6 +74,7 @@ footer {
 .funParagraph {
     color: green;
 }
+
 .credit {
     font-size: 8px;
     font-family: 'Roboto', sans-serif;
@@ -89,8 +84,8 @@ footer {
 .caption {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-    
 }
+
 .banner {
     position: relative;
     text-align: center;
@@ -111,13 +106,12 @@ h1 {
     left: 20px;
     font-size: 32px;
     color: white;
-
 }
+
 .banner span {
     margin: 0;
     float: right;
 }
-
 
 img {
     width: 50%;
@@ -140,12 +134,10 @@ ul {
     float: right;
 }
 
-
-
 .pittsburgh {
     display: flex;
-    
 }
+
 .pittsburgh img {
     width: 50%;  
 }
@@ -157,17 +149,15 @@ ul {
     margin-bottom: auto;
     margin-left: 50px; 
     border-radius: 8px;
-    
 }
 
 .chicago {
     display:flex
-    
 }
+
 .chicago img {
     height: 600px;
     width: 50%;
-
 }
 
 .chicago p {
@@ -182,8 +172,8 @@ ul {
  
 .amtrak {
     display:flex
-
 }
+
 .amtrak img {
     height: 500px;
     width: auto;
@@ -200,14 +190,12 @@ ul {
 }
 
 .spa {
-    display:flex
-    
-    
+    display:flex 
 }
+
 .spa img {
     height: auto;
-    width: 50%;
-    
+    width: 50%;  
 }
 
 .spa p {
@@ -220,10 +208,9 @@ ul {
 }
 
 .bandelier {
-    display:flex
-    
-    
+    display:flex 
 }
+
 .bandelier img {
     height: auto;
     width: 50%;
@@ -240,9 +227,8 @@ ul {
 
 .meowwolf {
     display:flex
-    
-    
 }
+
 .meowwolf img {
     height: auto;
     width: 50%;
